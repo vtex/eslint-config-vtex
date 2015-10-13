@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-vtex",
+  "version": "1.0.0",
+  "description": "VTEX eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtex/eslint-config-vtex.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "vtex"
+  ],
+  "author": "Breno Calazans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenoc/eslint-config-vtex/issues"
+  },
+  "homepage": "https://github.com/brenoc/eslint-config-vtex#readme",
+  "dependencies": {
+    "eslint-plugin-react": "^3.5.1"
+  }
+}
