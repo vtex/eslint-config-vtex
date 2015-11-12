@@ -5,6 +5,22 @@ module.exports = {
     "node": true,
     "mocha": true
   },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "destructuring": true,
+    "jsx": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "restParams": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true
+  },
   "rules": {
     "quotes": [2, "single"],
     "strict": [2, "never"],
@@ -22,8 +38,5 @@ module.exports = {
   },
   "plugins": [
     "react"
-  ],
-  "ecmaFeatures": {
-    "jsx": true
-  }
+  ]
 };
