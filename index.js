@@ -35,8 +35,15 @@ module.exports = {
     "quotes": [2, "single"],
     "react/wrap-multilines": 1,
     "semi": [2, "always"],
-    "space-after-keywords": [2],
-    "space-before-keywords": [2, "always"]
+    "keyword-spacing": [2, {
+      "before": false,
+      "after": true,
+      "overrides": {
+        "from": { "before": true },
+        "return": { "before": true },
+        "else": { "before": true }
+      }
+    }]
   },
   "plugins": [
     "react"
