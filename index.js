@@ -41,7 +41,8 @@ module.exports = {
       "overrides": {
         "from": { "before": true },
         "return": { "before": true },
-        "else": { "before": true }
+        "else": { "before": true },
+        "catch": { "before": true }
       }
     }]
   },
