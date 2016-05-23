@@ -34,7 +34,8 @@ module.exports = {
     "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
     "quotes": [2, "single"],
     "react/wrap-multilines": 1,
-    "semi": [2, "always"],
+    "semi": [2, "never"],
+    "semi-spacing": [2, { "before": false, "after": true }],
     "keyword-spacing": [2, {
       "before": false,
       "after": true,
