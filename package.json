@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/brenoc/eslint-config-vtex/issues"
   },
-  "homepage": "https://github.com/brenoc/eslint-config-vtex#readme",
-  "dependencies": {
-    "eslint-plugin-react": "^3.5.1"
-  }
+  "homepage": "https://github.com/brenoc/eslint-config-vtex#readme"
 }
