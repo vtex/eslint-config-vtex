@@ -120,7 +120,7 @@ module.exports = {
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": [2, "never"],
-    "prefer-const": 2,
+    "prefer-const": [2, { "destructuring": "all" }]
     "quotes": [2, "single", "avoid-escape"],
     "semi": [2, "never"],
     "semi-spacing": [2, { "before": false, "after": true }],
