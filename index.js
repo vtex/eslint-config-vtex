@@ -120,6 +120,7 @@ module.exports = {
     "no-useless-escape": 2,
     "no-whitespace-before-property": 2,
     "no-with": 2,
+    "object-curly-spacing": [2, "always"],
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": [2, "never"],
