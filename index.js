@@ -45,6 +45,7 @@ module.exports = {
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
     "new-parens": 2,
+    "no-console": 0,
     "no-array-constructor": 2,
     "no-caller": 2,
     "no-duplicate-imports": 2,
