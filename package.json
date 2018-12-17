@@ -18,9 +18,9 @@
   "author": "Breno Calazans",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brenoc/eslint-config-vtex/issues"
+    "url": "https://github.com/vtex/eslint-config-vtex/issues"
   },
-  "homepage": "https://github.com/brenoc/eslint-config-vtex#readme",
+  "homepage": "https://github.com/vtex/eslint-config-vtex#readme",
   "dependencies": {
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
