@@ -16,7 +16,7 @@ module.exports = {
       },
     ],
     "lodash/import-scope": [2, "method"],
-    "no-console": 0,
+    "no-console": ["error", { allow: ["warn", "error"] }],
   },
   env: {
     browser: true,
