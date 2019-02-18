@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Changed
-- Disable `no-console` rule.
+- Disable `no-console` rule for warnings and errors.
 
 ## [9.1.0] - 2019-02-06
 ### Added
