@@ -6,21 +6,12 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier',
     'prettier/@typescript-eslint',
-    'prettier/react',
   ],
   plugins: ['@typescript-eslint', 'import', 'lodash', 'prettier'],
 
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
   },
   globals: {
     __DEV__: true,
