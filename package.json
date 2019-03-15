@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vtex",
-  "version": "9.2.0",
+  "version": "10.0.0",
   "description": "VTEX's eslint config",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,25 @@
   },
   "homepage": "https://github.com/vtex/eslint-config-vtex#readme",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-lodash": "^5.1.0",
     "eslint-plugin-prettier": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true
   }
 }

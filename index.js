@@ -1,31 +1,33 @@
 module.exports = {
   extends: [
-    "plugin:import/recommended",
-    "plugin:prettier/recommended",
-    "eslint:recommended",
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/recommended',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/@typescript-eslint',
   ],
-  parser: "babel-eslint",
-  plugins: ["import", "lodash"],
+  plugins: ['@typescript-eslint', 'import', 'lodash', 'prettier'],
+
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    sourceType: 'module',
+  },
+  globals: {
+    __DEV__: true,
+  },
+
   rules: {
-    "import/no-unresolved": [
-      "error",
+    'prettier/prettier': 'error',
+    'import/no-unresolved': [
+      'error',
       {
         commonjs: true,
         amd: true,
-        ignore: ["^([a-zA-Z@]+[-\\.]?)+"],
+        ignore: ['^([a-zA-Z@]+[-\\.]?)+'],
       },
     ],
-    "lodash/import-scope": [2, "method"],
-    "no-console": ["error", { allow: ["warn", "error"] }],
-  },
-  env: {
-    browser: true,
-    node: true,
-    mocha: true,
-    jest: true,
-    es6: true,
-  },
-  globals: {
-    __DEV__: true
+    'lodash/import-scope': [2, 'method'],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
   },
 }
