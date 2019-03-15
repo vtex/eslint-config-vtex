@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Disabled rule `@typescript-eslint/explicit-function-return-type`.
+- Added typescript extensions for import plugin.
 
 ## [10.0.0] - 2019-03-15
 ### Changed

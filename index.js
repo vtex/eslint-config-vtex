@@ -16,6 +16,13 @@ module.exports = {
   globals: {
     __DEV__: true,
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
 
   rules: {
     'prettier/prettier': 'error',
@@ -29,5 +36,7 @@ module.exports = {
     ],
     'lodash/import-scope': [2, 'method'],
     'no-console': ['error', { allow: ['warn', 'error'] }],
+
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 }
