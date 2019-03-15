@@ -37,6 +37,7 @@ module.exports = {
     'lodash/import-scope': [2, 'method'],
     'no-console': ['error', { allow: ['warn', 'error'] }],
 
+    // waiting for https://github.com/typescript-eslint/typescript-eslint/issues/50
     '@typescript-eslint/explicit-function-return-type': 'off',
   },
 }
