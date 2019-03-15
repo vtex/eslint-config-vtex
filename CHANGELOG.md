@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [10.0.1] - 2019-03-15
+### Changed
+- Disabled rule `@typescript-eslint/explicit-function-return-type`.
+  - The current version of the parser doesn't have support for type analysis, so this rule will
+  complain for all functions, and not only the ones that doesn't have a type signature or aren't
+  inferable.
+- Added typescript extensions for import plugin.
+
 ## [10.0.0] - 2019-03-15
 ### Changed
 - Add support for typescript using the `@typescript-eslint` project packages.
