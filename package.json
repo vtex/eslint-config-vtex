@@ -29,14 +29,18 @@
     "eslint-plugin-lodash": "^5.1.0",
     "eslint-plugin-prettier": "^3.0.1"
   },
-  "prettier": {
-    "semi": false,
-    "trailingComma": "es5",
-    "singleQuote": true
-  },
   "devDependencies": {
     "eslint": "^5.15.1",
     "prettier": "^1.16.4",
     "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true
   }
 }
