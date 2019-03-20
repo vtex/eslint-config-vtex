@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vtex",
-  "version": "10.0.1",
+  "version": "10.1.0",
   "description": "VTEX's eslint config",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,6 @@
     "@typescript-eslint/eslint-plugin": "^1.4.2",
     "@typescript-eslint/parser": "^1.4.2",
     "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-lodash": "^5.1.0",
     "eslint-plugin-prettier": "^3.0.1"
   },
