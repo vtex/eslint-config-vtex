@@ -23,5 +23,7 @@ module.exports = {
 
     // waiting for https://github.com/typescript-eslint/typescript-eslint/issues/50
     '@typescript-eslint/explicit-function-return-type': 'off',
+    
+    "@typescript-eslint/no-unused-vars": ["warn", { "ignoreRestSiblings": true }],
   },
 }
