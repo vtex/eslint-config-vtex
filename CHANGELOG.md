@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [11.0.0] - 2019-07-15
+### Changed
+- Upgrade `typescript-eslint` dependencies to support latest TypeScript version.
+
 ## [10.1.0] - 2019-03-20
 ### Removed
 - Remove `eslint-plugin-import`.
