@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [11.1.0] - 2019-09-16
+### Changed
+- Bump `typescript-eslint` to `v2.3.0`.
+- Bump `eslint-plugin-lodash` to `v6.0.0`.
+- Bump `eslint-config-prettier` to `v6.2.0`.
+
 ## [11.0.0] - 2019-07-15
 ### Changed
 - Upgrade `typescript-eslint` dependencies to support latest TypeScript version.
