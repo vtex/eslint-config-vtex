@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Add `eslint-plugin-import` to standardize import/export styles.
+
 ## [11.1.0] - 2019-09-16
 ### Changed
 - Bump `typescript-eslint` to `v2.3.0`.
