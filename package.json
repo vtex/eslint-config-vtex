@@ -24,6 +24,9 @@
     "url": "https://github.com/vtex/eslint-config-vtex/issues"
   },
   "homepage": "https://github.com/vtex/eslint-config-vtex#readme",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
