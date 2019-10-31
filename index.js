@@ -5,8 +5,9 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier',
     'prettier/@typescript-eslint',
+    'plugin:import/typescript',
   ],
-  plugins: ['@typescript-eslint', 'lodash', 'prettier'],
+  plugins: ['@typescript-eslint', 'lodash', 'prettier', 'import'],
 
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -25,5 +26,27 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
 
     '@typescript-eslint/no-unused-vars': ['warn', { ignoreRestSiblings: true }],
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        groups: [
+          'builtin',
+          'external',
+          ['internal', 'parent'],
+          ['sibling', 'index'],
+        ],
+      },
+    ],
+    'import/first': 'error',
+    'import/no-duplicates': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-mutable-exports': 'warn',
+    'import/export': 'warn',
+    'import/no-useless-path-segments': 'error',
+    'import/no-self-import': 'error',
+    'import/no-absolute-path': 'error',
   },
 }
