@@ -25,7 +25,13 @@ module.exports = {
     // waiting for https://github.com/typescript-eslint/typescript-eslint/issues/50
     '@typescript-eslint/explicit-function-return-type': 'off',
 
-    '@typescript-eslint/no-unused-vars': ['warn', { ignoreRestSiblings: true }],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        ignoreRestSiblings: true,
+        argsIgnorePattern: '_+',
+      },
+    ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules
     'import/order': [
