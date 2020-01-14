@@ -4,7 +4,8 @@
   "description": "VTEX's eslint config",
   "main": "index.js",
   "scripts": {
-    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
+    "dump-config": "eslint --print-config index.js > config-dump.json"
   },
   "repository": {
     "type": "git",
@@ -31,11 +32,15 @@
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
     "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-lodash": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1"
   },
   "devDependencies": {
+    "@vtex/prettier-config": "^0.0.1",
     "eslint": "^6.3.0",
     "prettier": "^1.18.2",
     "typescript": "^3.6.2"
@@ -45,9 +50,5 @@
     "prettier": "^1.16.4",
     "typescript": "^3.3.3333"
   },
-  "prettier": {
-    "semi": false,
-    "trailingComma": "es5",
-    "singleQuote": true
-  }
+  "prettier": "@vtex/prettier-config"
 }
