@@ -1,6 +1,6 @@
-// TODO: check these
 module.exports = {
   extends: [
+    require.resolve('./index.js'),
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'prettier/react',
@@ -52,6 +52,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
 
     // prevent people from importing native Node libs (url/path/crypto, etc)
-    'import/no-nodejs-modules': 'warn',
+    'import/no-nodejs-modules': 'error',
   },
 }

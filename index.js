@@ -3,15 +3,13 @@ module.exports = {
     'eslint:recommended',
     './rules/imports.js',
     './rules/typescript.js',
-    './rules/react.js',
     './rules/prettier.js',
   ],
-  plugins: ['lodash', 'prettier'],
+  plugins: ['prettier'],
   globals: {
     __DEV__: true,
   },
   rules: {
-    'lodash/import-scope': [2, 'method'],
     'no-console': ['error', { allow: ['warn', 'error'] }],
   },
 }

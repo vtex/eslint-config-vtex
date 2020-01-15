@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  }
+}

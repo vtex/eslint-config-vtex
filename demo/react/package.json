@@ -1,7 +1,5 @@
 {
   "private": true,
-  "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "react": "^16.8.4"
   },
@@ -9,10 +7,5 @@
     "eslint": "^5.15.1",
     "prettier": "^1.16.4",
     "typescript": "^3.3.3333"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5"
   }
 }

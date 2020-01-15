@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-const AnotherComponent: React.FunctionComponent = () => {
+const AnotherComponent: FC = () => {
   return null
 }
 
-const Component: React.FunctionComponent = () => {
+const Component: FC = () => {
   return (
     <div className="my-class">
       <div />
