@@ -3,8 +3,6 @@ module.exports = {
   extends: ['plugin:import/typescript'],
   plugins: ['import'],
   rules: {
-    // Style guide:
-
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
     'import/first': 'error',

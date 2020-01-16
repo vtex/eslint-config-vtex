@@ -9,7 +9,4 @@ module.exports = {
   globals: {
     __DEV__: true,
   },
-  rules: {
-    'no-console': ['error', { allow: ['warn', 'error'] }],
-  },
 }
