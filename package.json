@@ -29,26 +29,26 @@
     "index.js"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.0",
-    "@typescript-eslint/parser": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
     "confusing-browser-globals": "^1.0.9",
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.6.1"
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
   },
   "devDependencies": {
     "@vtex/prettier-config": "^0.0.1",
-    "eslint": "^6.3.0",
+    "eslint": "^6.8.0",
     "prettier": "^1.18.2",
     "typescript": "^3.6.2"
   },
   "peerDependencies": {
-    "eslint": "^6.0.1",
-    "prettier": "^1.16.4",
-    "typescript": "^3.3.3333"
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
   },
   "prettier": "@vtex/prettier-config"
 }
