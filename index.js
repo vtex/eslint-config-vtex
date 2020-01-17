@@ -1,10 +1,11 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    './rules/node.js',
     './rules/errors.js',
-    './rules/variables.js',
+    './rules/node.js',
     './rules/style.js',
+    './rules/variables.js',
+    './rules/es6.js',
     './rules/imports.js',
     './rules/typescript.js',
     './rules/prettier.js',
