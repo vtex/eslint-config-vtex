@@ -8,10 +8,6 @@ module.exports = {
     },
   },
   rules: {
-    // Enforce onmouseover/onmouseout are accompanied by onfocus/onblur.
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md
-    'jsx-a11y/mouse-events-have-key-event': 'error',
-
     // Enforce that anchors have content
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
     'jsx-a11y/anchor-has-content': 'error',
@@ -41,7 +37,7 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md
     'jsx-a11y/img-redundant-alt': 'error',
 
-    // require that JSX labels use "htmlFor"
+    // Require that JSX labels use "htmlFor"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
     // deprecated: replaced by `label-has-associated-control` rule
     'jsx-a11y/label-has-for': 'off',
@@ -87,7 +83,7 @@ module.exports = {
       },
     ],
 
-    // require that mouseover/out come with focus/blur, for keyboard-only users
+    // Require that mouseover/out come with focus/blur, for keyboard-only users
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md
     'jsx-a11y/mouse-events-have-key-events': 'error',
 
@@ -95,7 +91,7 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-access-key.md
     'jsx-a11y/no-access-key': 'error',
 
-    // require onBlur instead of onChange
+    // Require onBlur instead of onChange
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
     'jsx-a11y/no-onchange': 'off',
 
@@ -122,7 +118,7 @@ module.exports = {
     'jsx-a11y/role-has-required-aria-props': 'error',
 
     // Enforce that elements with explicit or implicit roles defined contain
-    // only aria-* properties supported by that role.
+    // Only aria-* properties supported by that role.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-supports-aria-props.md
     'jsx-a11y/role-supports-aria-props': 'error',
 
@@ -134,11 +130,11 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/heading-has-content.md
     'jsx-a11y/heading-has-content': 'error',
 
-    // require HTML elements to have a "lang" prop
+    // Require HTML elements to have a "lang" prop
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/html-has-lang.md
     'jsx-a11y/html-has-lang': 'error',
 
-    // require HTML element's lang prop to be valid
+    // Require HTML element's lang prop to be valid
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md
     'jsx-a11y/lang': 'error',
 
@@ -149,11 +145,11 @@ module.exports = {
       { elements: ['marquee', 'blink'] },
     ],
 
-    // only allow <th> to have the "scope" attr
+    // Only allow <th> to have the "scope" attr
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/scope.md
     'jsx-a11y/scope': 'error',
 
-    // require onClick be accompanied by onKeyUp/onKeyDown/onKeyPress
+    // Require onClick be accompanied by onKeyUp/onKeyDown/onKeyPress
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/click-events-have-key-events.md
     'jsx-a11y/click-events-have-key-events': 'error',
 

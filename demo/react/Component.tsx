@@ -13,11 +13,4 @@ const Component: FC = () => {
   )
 }
 
-export default () => {
-  return (
-    <div className="my-class">
-      <div />
-      <AnotherComponent />
-    </div>
-  )
-}
+export default Component

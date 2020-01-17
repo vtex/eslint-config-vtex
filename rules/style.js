@@ -56,11 +56,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-array-constructor
     'no-array-constructor': 'error',
 
-    // Disallow use of the continue statement
-    // https://eslint.org/docs/rules/no-continue
-    // TODO disable?
-    'no-continue': 'error',
-
     // Disallow if as the only statement in an else block
     // https://eslint.org/docs/rules/no-lonely-if
     'no-lonely-if': 'error',
@@ -72,10 +67,6 @@ module.exports = {
     // Disallow negated conditions
     // https://eslint.org/docs/rules/no-negated-condition
     'no-negated-condition': 'error',
-
-    // Disallow nested ternary expressions
-    // https://eslint.org/docs/rules/no-nested-ternary
-    'no-nested-ternary': 'off',
 
     // Disallow use of the Object constructor
     // https://eslint.org/docs/rules/no-new-object
@@ -110,18 +101,8 @@ module.exports = {
     // https://eslint.org/docs/rules/operator-assignment
     'operator-assignment': ['error', 'always'],
 
-    // Require or disallow padding lines between statements
-    // https://eslint.org/docs/rules/padding-line-between-statements
-    // TODO POST issue
-    'padding-line-between-statements': 'off',
-
-    // Disallow the use of Math.pow in favor of the ** operator
-    // https://eslint.org/docs/rules/prefer-exponentiation-operator
-    'prefer-exponentiation-operator': 'warn',
-
     // Prefer use of an object spread over Object.assign
     // https://eslint.org/docs/rules/prefer-object-spread
-    // TODO POST issue
     'prefer-object-spread': 'error',
 
     // Require or disallow a space immediately following the // or /* in a comment
@@ -141,5 +122,21 @@ module.exports = {
         },
       },
     ],
+
+    // Require or disallow padding lines between statements
+    // https://eslint.org/docs/rules/padding-line-between-statements
+    // TODO https://github.com/vtex/front-end-standards/issues/32
+    'padding-line-between-statements': [
+      'off',
+      // empty lines after declarations
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      { blankLine: 'always', prev: '*', next: 'return' },
+    ],
+
+    //! Require eslint >= 6.7.0
+
+    // Disallow the use of Math.pow in favor of the ** operator
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
   },
 }

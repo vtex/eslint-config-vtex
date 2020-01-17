@@ -18,6 +18,17 @@ module.exports = {
     // https://eslint.org/docs/rules/no-console
     'no-console': ['error', { allow: ['warn', 'error'] }],
 
+    // Disallow template literal placeholder syntax in regular strings
+    // https://eslint.org/docs/rules/no-template-curly-in-string
+    'no-template-curly-in-string': 'error',
+
+    // Disallow assignments that can lead to race conditions due to usage of await or yield
+    // https://eslint.org/docs/rules/require-atomic-updates
+    // TODO: https://github.com/vtex/front-end-coding-standard/issues/27
+    'require-atomic-updates': 'off',
+
+    //! Require eslint >= 6.7.0
+
     // Disallow duplicate conditions in if-else-if chains
     // https://eslint.org/docs/rules/no-dupe-else-if
     'no-dupe-else-if': 'error',
@@ -28,14 +39,5 @@ module.exports = {
     // Disallow returning values from setters
     // https://eslint.org/docs/rules/no-setter-return
     'no-setter-return': 'error',
-
-    // Disallow template literal placeholder syntax in regular strings
-    // https://eslint.org/docs/rules/no-template-curly-in-string
-    'no-template-curly-in-string': 'error',
-
-    // Disallow assignments that can lead to race conditions due to usage of await or yield
-    // https://eslint.org/docs/rules/require-atomic-updates
-    // TODO: https://github.com/vtex/front-end-coding-standard/issues/27
-    'require-atomic-updates': 'off',
   },
 }
