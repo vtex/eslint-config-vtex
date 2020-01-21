@@ -1,3 +1,5 @@
+# Moved to [vtex/javascript](https://github.com/vtex/javascript/blob/master/packages/eslint-config-vtex/README.md)
+
 # eslint-config-vtex
 
 This package provides VTEX's `.eslintrc` as an extensible shared config.
